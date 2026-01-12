@@ -25,6 +25,7 @@
 .section-heading{
     max-width: 827px;
     text-align: center;
+    margin: 0 auto;
 
 }
 
@@ -43,6 +44,10 @@
 .font-open-sans{
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
+}
+
+.text-center{
+    text-align: center;
 }
 
 /* main style */
@@ -176,6 +181,7 @@ nav .menu a{
     display: flex;
     gap: 24px;
 }
+
 
 .resume-container .section-title{
     font-weight: bold;

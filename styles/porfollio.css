@@ -232,9 +232,9 @@ footer .footer-container{
     max-width: 1140px;
     margin: 0 auto;
     display: flex;
-    justify-content: space-between;  /* 🔥 KEY FIX */
+    justify-content: space-between;  
     align-items: flex-start;
-    gap: 60px;                       /* small & controlled */
+    gap: 60px;                       
 }
 
 .footer-container .social{

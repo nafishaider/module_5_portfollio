@@ -26,7 +26,6 @@
     max-width: 827px;
     text-align: center;
     margin: 0 auto;
-
 }
 
 .section-heading h2{
@@ -149,8 +148,7 @@ nav .menu a{
 #skills .skills-container{
     width: 60%;
     max-width: 1140px;
-    margin: 0px auto;
-    
+    margin: 0px auto;    
 }
 
 .skill-box{
@@ -193,14 +191,12 @@ nav .menu a{
 .resume-card{
     max-width: 511px;
     margin-right: 47px;
-
 }
 .resume-card .card-title{
     font-size: 25px;
     font-weight: bold;
     margin-bottom: 10px;
     color: #474747;
-
 }
 .resume-card .card-info{
     font-size: 20px;
@@ -216,6 +212,70 @@ nav .menu a{
 .resume-container hr{
     margin: 30px 0;
 }
+
+footer{
+    margin-top: 130px;
+    background-color: #FFF8F3;
+    padding: 130px 0;
+    width: 100%;
+}
+
+footer .footer-container{
+    width: 60%;
+    max-width: 1140px;
+    margin: 0 auto;
+    gap: 240px;
+}
+
+.footer-container{
+    width: 60%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;  /* 🔥 KEY FIX */
+    align-items: flex-start;
+    gap: 60px;                       /* small & controlled */
+}
+
+.footer-container .social{
+    max-width: 562px;
+}
+
+.footer-container .social p{
+    color: #474747;
+    line-height: 28px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.footer-container h2{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 30px;
+}
+
+.footer-container .icons a{
+    margin-right: 50px;
+}
+
+.footer-container form input[type="text"] , .footer-container form textarea{
+    width: 461px;
+    padding: 18px 31px;
+    margin-bottom: 24px;
+    border: none;
+    border-radius: 5px;
+    color: #757575;  
+}
+.footer-container .social{
+    max-width: 520px;
+}
+
+.footer-container form{
+    max-width: 460px;
+}
+
+
 
 
 
